@@ -13,3 +13,64 @@ class Song
     @@genres << genre
     @@artists << artist
   end  
+  
+  def self.count
+    @@count
+  end
+  
+  def self.genres
+    @@genres.uniq!
+  end
+  
+  def self.artists
+    @@artists.uniq!
+  end
+  
+  def sef.genre_count
+    genre_count = {}
+    @@genre.each do |genre|
+      if genre_count[genre]
+        genre_count += 1
+      else 
+        genre_count[genre] = 1
+      end
+    end
+  end
+  
+  
+  def self.artist_count
+      artist_count = {}
+      @@artists.each do |artist|
+        if artist_count
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
